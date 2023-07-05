@@ -67,6 +67,10 @@ ul {
 .game .board-cells-list > li.win {
   background: rgba(255, 255, 255, 0.3);
 }
+.game .board-cells-list > li:hover.cross.win,
+.game .board-cells-list > li:hover.circle.win{
+  background: rgba(255, 255, 255, 0.3);
+}
 
 /* Add hover effect on cell hover */
 .game .board-cells-list > li:hover {
